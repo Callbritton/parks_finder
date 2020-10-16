@@ -1,0 +1,12 @@
+<h1>Total Parks: <%= @parks.count %></h1>
+
+<% @parks.each do |park| %>
+<section id='park-info-<%= park.id %>'>
+  <h2><%= park.name %></h2>
+  <h3>Description:</h3>
+  <p><%= park.description %></p>
+  <h3>Directions:</h3>
+  <p><%= park.directions %></p>
+  <h3>Hours of Operation:</h3>
+  <p><%= park.hours %></p>
+<% end %>
