@@ -11,7 +11,7 @@ Run through the standard Rails setup.
 
 ```bash
 $ bundle install
-$ rake db:{create,migrate}
+$ rails db:{create,migrate}
 $ rails s
 ```
 
